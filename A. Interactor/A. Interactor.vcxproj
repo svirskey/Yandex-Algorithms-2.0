@@ -24,6 +24,7 @@
     <ProjectGuid>{2bc564b0-cd92-4a26-9d90-6da2ede85acd}</ProjectGuid>
     <RootNamespace>AInteractor</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>B-1-A. Interactor</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
