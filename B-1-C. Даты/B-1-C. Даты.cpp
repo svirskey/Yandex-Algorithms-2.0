@@ -18,7 +18,7 @@ bool day_month(int day, int month, int year)
     return true;
 }
 
-bool isEurop(int x, int y, int z)
+bool isEuropian(int x, int y, int z)
 {
     if (y > 12)
         return false;
@@ -27,7 +27,7 @@ bool isEurop(int x, int y, int z)
     return true;
 }
 
-bool isAmer(int x, int y, int z)
+bool isAmerican(int x, int y, int z)
 {
     if (x > 12)
         return false;
@@ -45,7 +45,7 @@ int main()
         cout << 1 << endl;
     else
     {
-        res = isAmer(x, y, z) + isEurop(x, y, z);
+        res = isAmerican(x, y, z) + isEuropian(x, y, z);
         cout << 2 - res << endl;
     }
 }
